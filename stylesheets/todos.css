@@ -1,0 +1,18 @@
+
+
+.done {
+   background: #4cae4c;
+}
+
+.new-list {
+    list-style: none;
+    border-radius: 4px 4px 4px 4px;
+    background: #f5e79e;
+    line-height: 30px;
+    margin-bottom: 2px;
+}
+
+.complete-list {
+
+}
+

@@ -1,0 +1,7 @@
+/* This stylesheet will be available on all modules */
+footer {
+    margin-top: 50px;
+    height: 60px;
+    background-color: #101010;
+    color: #ffffff;
+}/* This stylesheet will be available on all modules */
