@@ -2,6 +2,8 @@ Application.Model.extend({
   name: "todos/todo",
   defaults: {
       title: "",
+      text: "",
+      date : new Date(),
       done: false
   }
 });

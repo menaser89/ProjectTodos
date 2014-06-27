@@ -1,18 +1,60 @@
+.int-text {
+    background: #f5f5f5;
+    padding: 0px 25px 25px 25px;
+    border-radius: 15px 15px 15px 15px;
+}
 
+.inttask {
+    position: relative;
 
+}
+
+.btncomplete-ca {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.title-post {
+    background: #e0f2be;
+    padding: 15px 5px 5px 20px;
+    margin-bottom: -11;
+    border-radius: 10px 10px 0px 0px;
+}
+
+input[type="checkbox"] {
+    margin-top: 13px;
+}
 .done {
    background: #4cae4c;
 }
 
-.new-list {
-    list-style: none;
-    border-radius: 4px 4px 4px 4px;
+.ndone {
     background: #f5e79e;
-    line-height: 30px;
-    margin-bottom: 2px;
 }
 
-.complete-list {
-
+.new-task {
+    list-style: none;
+    padding: 0px;
+    min-height: 30px;
+    margin-bottom: 15px;
+    padding: 15px 15px 40px 15px;
+    border-radius: 0px 0px 3px 3px;
 }
 
+ul {
+    padding: 0px;
+}
+
+.options {
+    display: none;
+    margin-top: -16px;
+    background: #aaaaaa;
+    padding-top: 1px;
+    padding-right: 0px;
+    /*padding: 0px 0px 0px 0px;*/
+    min-height: 30px;
+
+}
