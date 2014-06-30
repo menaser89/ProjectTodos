@@ -14,7 +14,7 @@ Application.View.extend({
             event.preventDefault(); //No hace un evio de formulario le quita este valor por defecto
             var nuevo = this.serialize();
             nuevo.title = nuevo.title.toUpperCase();
-            nuevo.date = nuevo.dateTime;
+            nuevo.date = nuevo.formatDate;
             console.log(nuevo);
             this.collection.create(nuevo);
             this.$('input[name=title]').val('');
